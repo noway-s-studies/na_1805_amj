@@ -3,23 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <groupId>noway.na_1805_amj</groupId>
+    <artifactId>herospecies</artifactId>
+    <name>herospecies</name>
+    <version>1.0-SNAPSHOT</version>
+    <inceptionYear>2018</inceptionYear>
+    <packaging>pom</packaging>
+
     <parent>
         <groupId>noway</groupId>
         <artifactId>na_1805_amj</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>noway</groupId>
-    <artifactId>herospecies</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>herospecies-dao</module>
         <module>herospecies-dao-model</module>
         <module>herospecies-rest</module>
         <module>herospecies-service-ejb</module>
     </modules>
-    <name>herospecies</name>
-    <inceptionYear>2018</inceptionYear>
-
-    
 </project>

@@ -6,9 +6,10 @@
 
     <groupId>noway</groupId>
     <artifactId>na_1805_amj</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <name>na_1805_amj</name>
+    <version>1.0-SNAPSHOT</version>
     <inceptionYear>2018</inceptionYear>
+    <packaging>pom</packaging>
 
     <modules>
         <module>hero</module>
@@ -16,6 +17,8 @@
         <module>herospecies</module>
         <module>species</module>
     </modules>
-
-
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>
