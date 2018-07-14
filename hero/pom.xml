@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>NA</groupId>
-        <artifactId>NA180529_AMJ</artifactId>
+        <groupId>noway</groupId>
+        <artifactId>na_1805_amj</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>NA</groupId>
+    <groupId>noway</groupId>
     <artifactId>hero</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
