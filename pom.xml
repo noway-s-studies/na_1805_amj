@@ -16,6 +16,7 @@
         <module>hero_species</module>
         <module>herospecies</module>
         <module>species</module>
+        <module>free</module>
     </modules>
     
     <properties>
