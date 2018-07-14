@@ -1,11 +1,27 @@
 <html>
 <head>
-
+    <title>TODO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function reqListener () {
+            console.log(this.response);
+        }
+        function req () {
+            var oReq = new XMLHttpRequest();
+            oReq.addEventListener("load", reqListener);
+            oReq.open("GET", "http://localhost:8080/hero/");
+            oReq.send();
+        }
+    </script>
 </head>
 <body>
-<form method="post" action="localhost:8080/hero/formset" >
+<form method="post" action="http://localhost:8080/hero/" >
     <input type="text" name="name" />
     <input type="submit" />
 </form>
+
+<button onclick="req()">Bget</button>
+<input type="button"  onclick="req()" value="Iget" >
 </body>
 </html>

@@ -31,7 +31,6 @@ public class HeroEndpoint {
 
     @POST
     @Produces(MediaType.APPLICATION_JSON)
-    @Path("/formset")
     public Hero setFornHero(@FormParam("name") String pName) {
         hero.setName(pName);
         return hero;
